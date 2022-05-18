@@ -1,0 +1,43 @@
+#reloj{
+    height: 500px;
+    width: 500px;
+    border-color: black;
+    border-radius: 250px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+#horas{
+    height: 250px;
+    width: 10px;
+    background-color: black;
+    transform-origin: bottom;
+    animation-name: rotacion;
+    animation-duration: 1296000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#minutos{
+    height: 250px;
+    width: 5px;
+    background-color: grey;
+    transform-origin: bottom;
+    animation-name: rotacion;
+    animation-duration: 360s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#segundos{
+    height: 250px;
+    width: 5px;
+    background-color: blue;
+    transform-origin: bottom;
+    animation-name: rotacion;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotacion {
+    100%{transform: rotateZ(360deg)}
+}

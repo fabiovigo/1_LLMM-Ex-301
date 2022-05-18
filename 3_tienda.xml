@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="3_tienda.xsl" type="text/xsl"?>
 <tienda>
              
     <title>Tienda Online</title>
     <encabezado>Bienvenid@s a mi tienda</encabezado>
     <descripcion>Esto es una tienda online que vende productos a través de internet</descripcion>
-             
+    <productos>
+        <producto1>
+            <nombre>Manzana</nombre>
+            <desc>Muy dulces</desc>
+            <precio>1,50€</precio>
+        </producto1>
+         <producto2>
+            <nombre>Platano</nombre>
+            <desc>Si, son de canarias</desc>
+            <precio>1,25€</precio>
+        </producto2>
+         <producto3>
+            <nombre>Peras</nombre>
+            <desc>Muy grandes</desc>
+            <precio>1,75€</precio>
+        </producto3>
+         <producto4>
+            <nombre>Kiwis</nombre>
+            <desc>Muy peludos</desc>
+            <precio>1,20€</precio>
+        </producto4>
+    </productos>         
 </tienda>
